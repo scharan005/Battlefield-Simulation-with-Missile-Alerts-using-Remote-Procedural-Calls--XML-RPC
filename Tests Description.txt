@@ -1,0 +1,18 @@
+Tests Conducted:
+----------------
+1. Test Case: Single Missile Strike
+   - Input: Missile positioned at (5, 5) with a radius of 2.
+   - Expected Output: Only soldiers within the impact radius are marked as dead.
+   - Result: Successful. Verified by checking the alive status of soldiers post-strike.
+
+2. Test Case: Commander Casualty
+   - Input: Missile strike directly targets the commander's position.
+   - Expected Output: Commander is marked as dead, and a new commander is elected.
+   - Result: Successful. Verified through logs indicating commander's death and subsequent election.
+
+...
+
+Known Limitations:
+------------------
+1. In scenarios where all soldiers are casualties, the program does not terminate gracefully.
+2. Soldier evasion logic can be further optimized for better outcomes.

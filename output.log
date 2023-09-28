@@ -1,0 +1,213 @@
+Output for server.py
+-------------------------------------------------
+PS C:\Users\srich\OneDrive\Desktop\rpctest> python server.py                                              
+Server started. Waiting for initial setup...
+Missile approaching at (6, 4) with impact radius 3
+Checking status of commander: Soldier 2
+0 0 0 0 0 0 0 0 11 0
+0 0 0 X X X X X X X
+3 0 0 X X X X X X X
+0 0 0 X X X X X X X
+4 0 0 X X X X X X X
+0 0 6 X X X X X X X
+0 7 0 X X X X X X X
+0 0 0 X X X X X X X
+0 10 0 5 8 0 0 0 0 13
+0 0 0 0 0 0 0 0 14 0
+
+Soldiers:
+ID: 1, Position: (3, 8), Status: Alive, Role: Soldier
+ID: 2, Position: (0, 4), Status: Alive, Role: Commander
+ID: 3, Position: (0, 2), Status: Alive, Role: Soldier
+ID: 4, Position: (0, 4), Status: Alive, Role: Soldier
+ID: 5, Position: (3, 8), Status: Alive, Role: Soldier
+ID: 6, Position: (2, 5), Status: Alive, Role: Soldier
+ID: 7, Position: (1, 6), Status: Alive, Role: Soldier
+ID: 8, Position: (4, 8), Status: Alive, Role: Soldier
+ID: 9, Position: (6, 5), Status: Dead, Role: Soldier 
+ID: 10, Position: (1, 8), Status: Alive, Role: Soldier
+ID: 11, Position: (8, 0), Status: Alive, Role: Soldier
+ID: 12, Position: (4, 2), Status: Dead, Role: Soldier
+ID: 13, Position: (9, 8), Status: Alive, Role: Soldier
+ID: 14, Position: (8, 9), Status: Alive, Role: Soldier
+ID: 15, Position: (4, 2), Status: Dead, Role: Soldier
+
+Missile landed at: (6, 4) with impact radius: 3      
+Soldiers 9, 12, 15 died due to the missile.
+Missile approaching at (5, 3) with impact radius 2
+Checking status of commander: Soldier 2
+0 0 0 0 0 0 0 0 11 0
+0 0 0 X X X X X 0 0
+3 0 0 X X X X X 0 0
+0 0 0 X X X X X 0 0
+4 0 0 X X X X X 0 0
+0 0 6 X X X X X 0 0
+0 7 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 10 0 5 8 0 0 0 0 13
+0 0 0 0 0 0 0 0 14 0
+
+Soldiers:
+ID: 1, Position: (3, 8), Status: Alive, Role: Soldier
+ID: 2, Position: (0, 4), Status: Alive, Role: Commander
+ID: 3, Position: (0, 2), Status: Alive, Role: Soldier
+ID: 4, Position: (0, 4), Status: Alive, Role: Soldier
+ID: 5, Position: (3, 8), Status: Alive, Role: Soldier
+ID: 6, Position: (2, 5), Status: Alive, Role: Soldier
+ID: 7, Position: (1, 6), Status: Alive, Role: Soldier
+ID: 8, Position: (4, 8), Status: Alive, Role: Soldier
+ID: 9, Position: (6, 5), Status: Dead, Role: Soldier 
+ID: 10, Position: (1, 8), Status: Alive, Role: Soldier
+ID: 11, Position: (8, 0), Status: Alive, Role: Soldier
+ID: 12, Position: (4, 2), Status: Dead, Role: Soldier
+ID: 13, Position: (9, 8), Status: Alive, Role: Soldier
+ID: 14, Position: (8, 9), Status: Alive, Role: Soldier
+ID: 15, Position: (4, 2), Status: Dead, Role: Soldier
+
+Missile landed at: (5, 3) with impact radius: 2      
+Soldiers 9, 12, 15 died due to the missile.
+Missile approaching at (5, 3) with impact radius 4
+Checking status of commander: Soldier 2
+0 X X X X X X X X X
+0 X X X X X X X X X
+3 X X X X X X X X X
+0 X X X X X X X X X
+4 X X X X X X X X X
+0 X X X X X X X X X
+0 X X X X X X X X X
+0 X X X X X X X X X
+0 10 0 5 8 0 0 0 0 13
+0 6 0 7 0 0 0 0 14 0
+
+Soldiers:
+ID: 1, Position: (3, 8), Status: Alive, Role: Soldier
+ID: 2, Position: (0, 4), Status: Alive, Role: Commander
+ID: 3, Position: (0, 2), Status: Alive, Role: Soldier
+ID: 4, Position: (0, 4), Status: Alive, Role: Soldier
+ID: 5, Position: (3, 8), Status: Alive, Role: Soldier
+ID: 6, Position: (1, 9), Status: Alive, Role: Soldier
+ID: 7, Position: (3, 9), Status: Alive, Role: Soldier
+ID: 8, Position: (4, 8), Status: Alive, Role: Soldier
+ID: 9, Position: (6, 5), Status: Dead, Role: Soldier 
+ID: 10, Position: (1, 8), Status: Alive, Role: Soldier
+ID: 11, Position: (8, 0), Status: Dead, Role: Soldier
+ID: 12, Position: (4, 2), Status: Dead, Role: Soldier
+ID: 13, Position: (9, 8), Status: Alive, Role: Soldier
+ID: 14, Position: (8, 9), Status: Alive, Role: Soldier
+ID: 15, Position: (4, 2), Status: Dead, Role: Soldier
+
+Missile landed at: (5, 3) with impact radius: 4      
+Soldiers 9, 11, 12, 15 died due to the missile. 
+---------------------------------------------------------------------
+
+
+
+
+
+Output for Client.py
+---------------------------------------------------------------------
+Client server started on port 8000
+Received missile approach notification at (6, 4) with impact radius 3
+0 0 0 0 0 0 0 0 11 0
+0 0 0 X X X X X X X
+3 0 0 X X X X X X X
+0 0 0 X X X X X X X
+4 0 0 X X X X X X X
+0 0 6 X X X X X X X
+0 7 0 X X X X X X X
+0 0 0 X X X X X X X
+0 10 0 5 8 0 0 0 0 13
+0 0 0 0 0 0 0 0 14 0
+
+Soldiers:
+ID: 1, Position: (3, 8), Status: Alive, Role: Soldier
+ID: 2, Position: (0, 4), Status: Alive, Role: Soldier
+ID: 3, Position: (0, 2), Status: Alive, Role: Soldier
+ID: 4, Position: (0, 4), Status: Alive, Role: Soldier
+ID: 5, Position: (3, 8), Status: Alive, Role: Soldier
+ID: 6, Position: (2, 5), Status: Alive, Role: Soldier
+ID: 7, Position: (1, 6), Status: Alive, Role: Soldier
+ID: 8, Position: (4, 8), Status: Alive, Role: Soldier
+ID: 9, Position: (6, 5), Status: Dead, Role: Soldier
+ID: 10, Position: (1, 8), Status: Alive, Role: Soldier
+ID: 11, Position: (8, 0), Status: Alive, Role: Soldier
+ID: 12, Position: (4, 2), Status: Dead, Role: Soldier
+ID: 13, Position: (9, 8), Status: Alive, Role: Soldier
+ID: 14, Position: (8, 9), Status: Alive, Role: Soldier
+ID: 15, Position: (4, 2), Status: Dead, Role: Soldier
+
+Missile landed at: (6, 4) with impact radius: 3     
+Soldiers 9, 12, 15 died due to the missile.
+127.0.0.1 - - [28/Sep/2023 02:08:16] "POST / HTTP/1.1" 200 -
+Checking if Soldier 2 is alive
+127.0.0.1 - - [28/Sep/2023 02:08:18] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Sep/2023 02:08:20] "POST / HTTP/1.1" 200 -
+Received missile approach notification at (5, 3) with impact radius 2
+0 0 0 0 0 0 0 0 11 0
+0 0 0 X X X X X 0 0
+3 0 0 X X X X X 0 0
+0 0 0 X X X X X 0 0
+4 0 0 X X X X X 0 0
+0 0 6 X X X X X 0 0
+0 7 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 10 0 5 8 0 0 0 0 13
+0 0 0 0 0 0 0 0 14 0
+
+Soldiers:
+ID: 1, Position: (3, 8), Status: Alive, Role: Soldier
+ID: 2, Position: (0, 4), Status: Alive, Role: Soldier
+ID: 3, Position: (0, 2), Status: Alive, Role: Soldier
+ID: 4, Position: (0, 4), Status: Alive, Role: Soldier
+ID: 5, Position: (3, 8), Status: Alive, Role: Soldier
+ID: 6, Position: (2, 5), Status: Alive, Role: Soldier
+ID: 7, Position: (1, 6), Status: Alive, Role: Soldier
+ID: 8, Position: (4, 8), Status: Alive, Role: Soldier
+ID: 9, Position: (6, 5), Status: Dead, Role: Soldier
+ID: 10, Position: (1, 8), Status: Alive, Role: Soldier
+ID: 11, Position: (8, 0), Status: Alive, Role: Soldier
+ID: 12, Position: (4, 2), Status: Dead, Role: Soldier
+ID: 13, Position: (9, 8), Status: Alive, Role: Soldier
+ID: 14, Position: (8, 9), Status: Alive, Role: Soldier
+ID: 15, Position: (4, 2), Status: Dead, Role: Soldier
+
+Missile landed at: (5, 3) with impact radius: 2     
+Soldiers 9, 12, 15 died due to the missile.
+127.0.0.1 - - [28/Sep/2023 02:08:27] "POST / HTTP/1.1" 200 -
+Checking if Soldier 2 is alive
+127.0.0.1 - - [28/Sep/2023 02:08:29] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Sep/2023 02:08:32] "POST / HTTP/1.1" 200 -
+Received missile approach notification at (5, 3) with impact radius 4
+0 X X X X X X X X X
+0 X X X X X X X X X
+3 X X X X X X X X X
+0 X X X X X X X X X
+4 X X X X X X X X X
+0 X X X X X X X X X
+0 X X X X X X X X X
+0 X X X X X X X X X
+0 10 0 5 8 0 0 0 0 13
+0 6 0 7 0 0 0 0 14 0
+
+Soldiers:
+ID: 1, Position: (3, 8), Status: Alive, Role: Soldier
+ID: 2, Position: (0, 4), Status: Alive, Role: Soldier
+ID: 3, Position: (0, 2), Status: Alive, Role: Soldier
+ID: 4, Position: (0, 4), Status: Alive, Role: Soldier
+ID: 5, Position: (3, 8), Status: Alive, Role: Soldier
+ID: 6, Position: (1, 9), Status: Alive, Role: Soldier
+ID: 7, Position: (3, 9), Status: Alive, Role: Soldier
+ID: 8, Position: (4, 8), Status: Alive, Role: Soldier
+ID: 9, Position: (6, 5), Status: Dead, Role: Soldier
+ID: 10, Position: (1, 8), Status: Alive, Role: Soldier
+ID: 11, Position: (8, 0), Status: Dead, Role: Soldier
+ID: 12, Position: (4, 2), Status: Dead, Role: Soldier
+ID: 13, Position: (9, 8), Status: Alive, Role: Soldier
+ID: 14, Position: (8, 9), Status: Alive, Role: Soldier
+ID: 15, Position: (4, 2), Status: Dead, Role: Soldier
+
+Missile landed at: (5, 3) with impact radius: 4     
+Soldiers 9, 11, 12, 15 died due to the missile.     
+127.0.0.1 - - [28/Sep/2023 02:08:39] "POST / HTTP/1.1" 200 -
+Checking if Soldier 2 is alive
+127.0.0.1 - - [28/Sep/2023 02:08:41] "POST / HTTP/1.1" 200 -

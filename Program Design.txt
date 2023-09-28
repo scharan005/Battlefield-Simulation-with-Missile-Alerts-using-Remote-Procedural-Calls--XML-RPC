@@ -1,0 +1,20 @@
+Program Design:
+---------------
+The program is architected using a client-server model. The server represents the battlefield and oversees missile strikes, while the client represents the soldiers and their actions.
+
+How It Works:
+-------------
+1. Upon initialization, the server sets up the battlefield and randomly selects a commander from the available soldiers.
+2. The client initializes soldiers with random positions on the battlefield.
+3. Periodically, the server simulates missile strikes, determining their position and impact radius, then notifies the client.
+4. Upon receiving this notification, the client decides the actions for each soldier, such as evading the missile.
+5. If a missile strike results in the commander's death, a new commander is elected from the remaining alive soldiers.
+
+Design Tradeoffs:
+-----------------
+1. Communication: We opted for XML-RPC due to its simplicity and ease of use for remote procedure calls.
+2. Commander Selection: Random selection was chosen for fairness, though it might not always yield the most strategically placed soldier.
+
+To Run the Program:
+-------------------
+Please refer to the detailed instructions provided in the `readme.txt` file.
